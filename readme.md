@@ -83,6 +83,37 @@ Assim, crie um ficheiro HTML intitulado index.html, inserindo as partes elementa
 4. Explore o site https://www.rapidtables.com/web/color/ , onde para cada cor existe uma palete de intensidades que pode escolher. Neste site, escolha uma cor clara para o fundo da sua página, e especifique-a através da etiqueta:
 <body style="background-color:plum"> 
 
+# 3. Criação do cabeçalho
+
+Crie agora o cabeçalho do seu website. Terá o nome da Cidade, uma imagem e o menu, ficando da seguinte forma:
+
+
+
+ 
+
+Para, tal, siga os seguintes passos: 
+1.	Crie uma tabela com duas linhas e duas colunas. Servirá para posicionar na célula esquerda uma imagem, na direita o seu nome e outra informação, e na célula de baixo o menu. As bordas ficarão invisíveis. Mas para entender a disposição que se pretende dos conteúdos, mostram-se as bordas:
+
+ 
+
+
+2.	Crie um elemento <h1> contendo o seu nome. De seguida, dentro de uma etiqueta <p> coloque UBI, nome do curso e número de aluno. Na célula do nome, por baixo, insira uma barra horizontal preta, através do seguinte elemento:
+<hr style="border: 1px solid black">
+
+3.	Escolha uma imagem a seu gosto para pôr ao lado do seu nome (onde está o quadrado rosa). Poderá ter as proporções que queira, mas redimensione-a no Paint por forma a ter 100 pixels de altura. No Paint existe uma opção resize que lhe permite escolher o número de pixels que pretende que tenha de largura. Respeite a proporção da imagem, sem a deformar! Guarde a imagem na pasta “imagens”. Insira a imagem usando a etiqueta img da seguinte forma:
+<img src="images/foto.jpg">
+
+4.	Na célula da segunda linha da tabela irá agora especificar o seu menu. Para tal
+a.	Escreva o nome das páginas do seu site (home, webdesign, origens, interesses) separados do carater “|”. 
+
+b.	Para cada nome, crie um elemento hyperlink para a respetiva página (que criaremos a seguir):
+i.	index.html para home
+ii.	webdesign.html para webdesign
+iii.	origens.html para origens
+iv.	interesses.html para interesses
+
+
+
 
 # 1. História
 
