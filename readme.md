@@ -2,7 +2,7 @@
 
 # Programação Web - Laboratório 2: Explorando o HTML com o meu primeiro website  
 
-**OBJECTIVO**: Nesta ficha criará um primeiro website que ficará disponível na nuvem. Irá aplicar todos os conceitos aprendidos na aula sobre HTML desta semana.
+**OBJECTIVO**: Nesta ficha criará um primeiro website que ficará disponível na nuvem. Será um conjunto de páginas interligado por hiperlinks onde irá aplicar os conceitos aprendidos na aula sobre HTML desta semana.
 
 **PRÉ-REQUISITOS**: 
 * Instale o VS Code para editar o código HTML de forma fácil. Senão, pode sempre usar o Notepad++. 
@@ -48,9 +48,9 @@ projeto
 
 # 2. Cidade 
 
-Fará neste laboratório 2 um website sobre uma cidade à sua escolha, que congregará várias informações que recolherá sobre esta. 
+Fará neste laboratório 2 um website sobre uma cidade do mundo à sua escolha, que congregará várias informações que recolherá sobre esta. 
 
-Um website é uma coleção de páginas HTML. Para tal, vamos criar um primeiro ficheiro, index.html, e replicar em 4 paginas diferentes o mesmo formato de cabeçalho e menu, indo mudar o conteúdo. Assim, crie um ficheiro HTML intitulado index.html, inserindo as partes elementares:
+Um website é uma coleção de páginas HTML. Para tal, vamos criar um primeiro ficheiro, index.html, inserindo as partes elementares:
 
 ```html
 <!DOCTYPE html>
@@ -90,31 +90,28 @@ Crie agora o cabeçalho do seu website. Terá o nome da Cidade, uma imagem e o m
 ![](cabecalho.png)
 
 Para, tal, siga os seguintes passos: 
-1.	NA primeira linha insira o nome da cidade com o marcador <h1>.
-2.	Na linha seguinte insira uma imagem da cidade a seu gosto. Redimensione a imagem para que ocupe Crie uma tabela com duas linhas e duas colunas. Servirá para posicionar na célula esquerda uma imagem, na direita o seu nome e outra informação, e na célula de baixo o menu. As bordas ficarão invisíveis. Mas para entender a disposição que se pretende dos conteúdos, mostram-se as bordas:
-
- 
-
-
-2.	Crie um elemento <h1> contendo o seu nome. De seguida, dentro de uma etiqueta <p> coloque UBI, nome do curso e número de aluno. Na célula do nome, por baixo, insira uma barra horizontal preta, através do seguinte elemento:
-<hr style="border: 1px solid black">
-
-3.	Escolha uma imagem a seu gosto para pôr ao lado do seu nome (onde está o quadrado rosa). Poderá ter as proporções que queira, mas redimensione-a no Paint por forma a ter 100 pixels de altura. No Paint existe uma opção resize que lhe permite escolher o número de pixels que pretende que tenha de largura. Respeite a proporção da imagem, sem a deformar! Guarde a imagem na pasta “imagens”. Insira a imagem usando a etiqueta img da seguinte forma:
-<img src="images/foto.jpg">
-
-4.	Na célula da segunda linha da tabela irá agora especificar o seu menu. Para tal
-a.	Escreva o nome das páginas do seu site (home, webdesign, origens, interesses) separados do carater “|”. 
-
-b.	Para cada nome, crie um elemento hyperlink para a respetiva página (que criaremos a seguir):
-i.	index.html para home
-ii.	webdesign.html para webdesign
-iii.	origens.html para origens
-iv.	interesses.html para interesses
+1.	Na primeira linha insira o nome da cidade com o marcador `<h1>`.
+2.	Na linha seguinte insira uma imagem da cidade a seu gosto. Redimensione a imagem para que tenha 300px de largura.No Paint existe uma opção resize que lhe permite escolher o número de pixels que pretende que tenha de largura. Respeite a proporção da imagem, sem a deformar! Guarde a imagem na pasta `imagens`. Insira a imagem usando a etiqueta img da seguinte forma: <img src="images/foto.jpg">. Deverá inserir uma quebra de linha, pois uma imagem não é um bloco.
+3. Irá agora especificar o seu menu. Para tal
+    1. Escreva o nome das páginas do seu site (Home, Localização, Multimédia, Informações) separados do carater `|`. 
+    2. Para cada nome, crie um elemento hyperlink para a respetiva página (que criaremos a seguir):
+        1. `index.html` para Home
+        2. `local.html` para Localização
+        3. `multimedia.html` para Multimédia
+        4. `info.html` para Informações
 
 
+# 4. Criação das páginas do website
 
+De seguida iremos criar as páginas do seu website que estarão interligadas.
+1.	Crie 4 copias do ficheiro index.html que criou. 
+2.	Altere os nomes dos ficheiros para ter um de cada (index.html, local.html, multimedia.html, info.html)
+3.	Em cada ficheiro, no menu ponha a negrito a palavra a que corresponde a página.
+4.	Abra o ficheiro index, e experimente se os hiperlinks funcionam. 
+Tem agora criado o seu website! Agora irá preencher cada página com conteúdos.
 
-# 1. História
+# 5. Home
+
 
 Crie um novo ficheiro HTML chamado historia.html. Não se esqueça de especificar no head que usa UTF-8. Pesquise na Internet por [carateres especiais UTF-8](https://www.w3schools.com/charsets/ref_html_utf8.asp) assim como por emojis (por exemplo [aqui](https://www.w3schools.com/charsets/ref_emoji_smileys.asp). 
 Nesta página:
