@@ -91,7 +91,7 @@ Crie agora o cabeçalho do seu website. Terá o nome da Cidade, uma imagem e o m
 
 Para, tal, siga os seguintes passos: 
 1.	Na primeira linha insira o nome da cidade com o marcador `<h1>`.
-2.	Na linha seguinte insira uma imagem da cidade a seu gosto. Redimensione a imagem para que tenha 300px de largura.No Paint existe uma opção resize que lhe permite escolher o número de pixels que pretende que tenha de largura. Respeite a proporção da imagem, sem a deformar! Guarde a imagem na pasta `imagens`. Insira a imagem usando a etiqueta img da seguinte forma: <img src="images/foto.jpg">. Deverá inserir uma quebra de linha, pois uma imagem não é um bloco.
+2.	Na linha seguinte insira uma imagem da cidade a seu gosto. Redimensione a imagem para que tenha 300px de largura.No Paint existe uma opção resize que lhe permite escolher o número de pixels que pretende que tenha de largura. Respeite a proporção da imagem, sem a deformar! Guarde a imagem numa nova pasta `imagens`. Insira a imagem usando a etiqueta `img`. Deverá inserir depois desta uma quebra de linha, pois uma imagem não é um bloco.
 3. Irá agora especificar o seu menu. Para tal
     1. Escreva o nome das páginas do seu site (Home, Localização, Multimédia, Informações) separados do carater `|`. 
     2. Para cada nome, crie um elemento hyperlink para a respetiva página (que criaremos a seguir):
@@ -110,20 +110,34 @@ De seguida iremos criar as páginas do seu website que estarão interligadas.
 4.	Abra o ficheiro index, e experimente se os hiperlinks funcionam. 
 Tem agora criado o seu website! Agora irá preencher cada página com conteúdos.
 
-# 5. Home
+# 5. Página Home
+
+1. Insira um parágrafo sobre esta cidade.
+2. Pesquise na Internet por [carateres especiais UTF-8](https://www.w3schools.com/charsets/ref_html_utf8.asp) assim como por emojis na [W3Schools](https://www.w3schools.com/charsets/ref_emoji.asp) e na [emojipedia](https://emojipedia.org/): 
+    1. Conte a seguir uma pequena história apenas com emojis 😉, sobre a :cityscape: que escolheu. 
+    2. Coloque uma barra horizontal de separação <hr> 
+    3. Conte a história por palavras suas. Use etiquetas de estilo e organizacionais para formatar cada palavra diferentemente.
+    4. Coloque uma barra horizontal de separação <hr> 
+    5. Conte a história por palavras suas sem formatação. 
+3. De seguida num novo parágrafo apresente o seu website, criando uma lista não numerada onde apresenta em poucas palavras cada uma das páginas do seu website, incluindo um link para essa página numa das palavras.
 
 
-Crie um novo ficheiro HTML chamado historia.html. Não se esqueça de especificar no head que usa UTF-8. Pesquise na Internet por [carateres especiais UTF-8](https://www.w3schools.com/charsets/ref_html_utf8.asp) assim como por emojis (por exemplo [aqui](https://www.w3schools.com/charsets/ref_emoji_smileys.asp). 
-Nesta página:
-* Conte uma história apenas com emojis 😉. 
-* Coloque uma barra horizontal de separação <hr> 
-* Conte a história por palavras suas. Use etiquetas de estilo e organizacionais para formatar cada palavra diferentemente.
-* Coloque uma barra horizontal de separação <hr> 
-* Conte a história por palavras suas sem formatação. 
+# 6. Localização
 
-Especifique também um título para a barra dessa página e insira um icon. Para tal, coloque no head a etiqueta <link rel="shortcut icon" href="icon.png" />, onde substituirá icon.png pelo nome do ficheiro que quererá como icon.
+Na página `local.html`:
+1. Insira um pequeno parágrafo que descreva a localização da ciadade (continente, país), assim como algumas informações geográficas destas.
+2.	Insira por baixo um mapa do Google Maps do lugar. Para tal: 
+    a. procure o lugar no website www.google.pt/maps
+    b. Faça um zoom que considera apropriado
+    c. clique em “partilhar” e na opção “incorporar mapa” 
+    d. Selecione tamanho pequeno
+    e. copie o código HTML resultante, <iframe src=… >
+    f. insira esse código HTML na sua pagina HTML.
 
-# 1. Tabela
+
+
+
+
 
 Crie o ficheiro `tabela.hml` com uma tabela com dados à sua escolha (por exemplo do site https://www.pordata.pt). Deverá ter pelo menos 4 linhas e 4 colunas. Deve usar:
 * elementos thead, tfooter e tbody
