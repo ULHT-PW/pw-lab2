@@ -7,18 +7,19 @@
 **PRÉ-REQUISITOS**: 
 * Instale o VS Code para editar o código HTML de forma fácil. Senão, pode sempre usar o Notepad++. 
 * Deverá ter feito o [lab1](https://github.com/ULHT-PW-2020-21/pw-lab1).
+* LEia o enunciado todo antes de o começar a resolver.
 
 # 1. Estruturação
 
 1. Crie uma pasta `projeto` 
 1. Crie a pasta `lab1` que deverá conter o seu `lab1` criado na semana passada.
-   1. crie um ficheiro `lab1.html` que:
+1. crie um ficheiro `lab1.html` que:
        * tenha como título "lab1" (usando a etiqueta `<title>` no `<<head>`)
        * tenha um cabeçalho `<h1>` a dizer "Lab1: Conhecer a Internet com a minha primeira página Web" 
        * tenha, numa lista, links para as duas páginas desse laboratório: `progweb.html` e  `report.html`.
 
 1. Crie a pasta `lab2`
-   1. crie um ficheiro `lab2.html` que:
+1. crie um ficheiro `lab2.html` que:
        * tenha como título "lab2" (etiqueta `<title>`)
        * tenha um cabeçalho `<h1>` a dizer "Lab2: Explorando o HTML com o meu primeiro website" 
        * deverá ter, numa lista, links para cada uma das páginas que irá criar neste laboratório.
@@ -28,7 +29,7 @@
    * tenha um cabeçalho `<h1>` a dizer "Laboratórios Programação Web" 
    * deverá ter, numa lista, links para os ficheiros `lab1.html` e `lab2.html` (que estão nos seus respectivas pastas, pelo que deverá incluir no caminho o nome da pasta), usando o título de cada laboratório.
 
-1. Os ficheiros `lab1.html` e `lab2.html` deverão ter um link para voltar para a landingpage do seu projeto, `index.html`.
+1. Os ficheiros `lab1.html` e `lab2.html` deverão ter um link para voltar para a landingpage do seu projeto, o ficheiro `index.html` na pasta `projeto`.
 
 A estrutura final deverá ser como em baixo (com mais imagens na pasta img):
 ```
@@ -45,9 +46,64 @@ projeto
 |   +-- ... (ficheiros a criar ao longo deste laboratório)
 ```
 
+# 2. Cidade 
 
-## Landing page
+Fará neste laboratório 2 um website sobre uma cidade. Um website é uma coleção de páginas HTML. Para tal, vamos criar um primeiro ficheiro, index.html, e replicar em 4 paginas diferentes o mesmo formato de cabeçalho e menu, indo mudar o conteúdo. 
 
+Assim, crie um ficheiro HTML intitulado index.html, inserindo as partes elementares:
+
+```html
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+    </head>
+    <body>
+    </body>
+</html>
+```
+
+1.	Na secção <head> especifique um título (etiqueta <title>) para a barra do navegador. 
+2.	Especifique também os seguintes metadados:
+    a.	codificação UTF-8. 
+    b.	nome do autor do site, email, data de criação, uma curta descrição do conteudo do site, e palavras chave.
+
+<meta name="author" content="Ana Maria"> 
+<meta name="keywords" content="palavras chave"> 
+<meta name="description" content="Website sobre ...">
+<meta name="creation_date" content="date"
+<meta name="contactNetworkAddress" content="seu@mail.com">
+
+3.	Crie um icon para o seu website. Para tal:
+     a. Escolha uma imagem que converterá para icon (extensão .ico) recorrendo a uma aplicação web (e.g., https://www.favicon-generator.org/). Alternativamente, pode escolher um icon aqui https://www.iconspedia.com/.
+     b. Guarde-o numa nova pasta `imagens`, dentro de `lab2`, 
+     c. Insira um link para o icon no head da seguinte forma 
+< link rel="shortcut icon" type="image/x-icon" href="imagens/favicon.ico"/>
+d.	Poderá observar que, pelo facto de o icon estar na pasta “imagens”, tem sempre que especificar no href o caminho relativo para o local onde se encontra a imagem, o nome da pasta imagens (href="imagens/imagem.ico”).
+
+6.	Explore o site https://www.rapidtables.com/web/color/ , onde para cada cor existe uma palete de intensidades que pode escolher. Neste site, escolha uma cor clara para o fundo da sua página, e especifique-a através da etiqueta:
+<body style="background-color:plum"> 
+
+
+# 1. História
+
+Crie um novo ficheiro HTML chamado historia.html. Não se esqueça de especificar no head que usa UTF-8. Pesquise na Internet por [carateres especiais UTF-8](https://www.w3schools.com/charsets/ref_html_utf8.asp) assim como por emojis (por exemplo [aqui](https://www.w3schools.com/charsets/ref_emoji_smileys.asp). 
+Nesta página:
+* Conte uma história apenas com emojis 😉. 
+* Coloque uma barra horizontal de separação <hr> 
+* Conte a história por palavras suas. Use etiquetas de estilo e organizacionais para formatar cada palavra diferentemente.
+* Coloque uma barra horizontal de separação <hr> 
+* Conte a história por palavras suas sem formatação. 
+
+Especifique também um título para a barra dessa página e insira um icon. Para tal, coloque no head a etiqueta <link rel="shortcut icon" href="icon.png" />, onde substituirá icon.png pelo nome do ficheiro que quererá como icon.
+
+# 1. Tabela
+
+Crie o ficheiro `tabela.hml` com uma tabela com dados à sua escolha (por exemplo do site https://www.pordata.pt). Deverá ter pelo menos 4 linhas e 4 colunas. Deve usar:
+* elementos thead, tfooter e tbody
+* pelo menos um atributo rowspan e um coslpan (o valor de cada um sendo maior que 1). 
+* atributos cellspacing, cellpadding, bgcolor, align, border
+* formatação de colunas com colgroup, explorando os atributos existentes
+ 
 
 ## Lab 2
 Crie uma pasta `lab2` com o ficheiro `index.html` que deverá satisfazer os seguintes requisitos:
