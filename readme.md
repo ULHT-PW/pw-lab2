@@ -2,12 +2,12 @@
 
 # Programação Web - Laboratório 2: Explorando o HTML com o meu primeiro website  
 
-**OBJECTIVO**: Nesta ficha criará um primeiro website que ficará disponível na nuvem. Será um conjunto de páginas interligado por hiperlinks onde irá aplicar os conceitos aprendidos na aula sobre HTML desta semana.
+**OBJECTIVO**: Nesta ficha criará um primeiro website que ficará disponível na nuvem onde irá aplicar os conceitos aprendidos na aula sobre HTML desta semana.
 
 **PRÉ-REQUISITOS**: 
 * Instale o VS Code para editar o código HTML de forma fácil. Senão, pode sempre usar o Notepad++. 
 * Deverá ter feito o [lab1](https://github.com/ULHT-PW-2020-21/pw-lab1).
-* LEia o enunciado todo antes de o começar a resolver.
+* Leia o enunciado todo antes de o começar a resolver para entender o que fará.
 
 # 1. Estruturação
 
@@ -151,12 +151,13 @@ Na página `multimedia.html`:
 # 6. Página Informações
 
 Na página `info.html`:
-1.	Crie uma tabela com dados à sua escolha sobre a cidade escolhida. Deverá ter pelo menos 3 colunas e 4 colunas. Deve usar:
+1.	Crie uma tabela com dados à sua escolha sobre a cidade escolhida. Deverá ter pelo menos 3 colunas e 4 colunas. Uma sugestão é ir à wikipedia e extrair alguns elementos que aparecem numa tabela à direita. A terceira coluna pode consistir num elemento agrupador (por exemplo demografia, geografia, história, etc). Deve usar:
     * elementos thead, tfooter e tbody
     * pelo menos um atributo rowspan e um coslpan (o valor de cada um sendo maior que 1). 
     * atributos cellspacing, cellpadding, bgcolor, align, border
     * formatação de colunas com colgroup, explorando os atributos existentes
  
+
 
 ## Lab 2
 Crie uma pasta `lab2` com o ficheiro `index.html` que deverá satisfazer os seguintes requisitos:
@@ -187,8 +188,6 @@ De forma a conseguirem o alojamento na cloud com sucesso devem seguir os seguint
 * Na secção de `Deploy Method` devem conectar a aplicação com o Github
 * Navegando até ao fim da página, até à secção `Manual deploy`, devem escolher o branch indicado do repositório e clicar em `Deploy branch`
 * Um vez realizado com sucesso, devem clicar no botão `Open app` no topo da página, e visualizar a página HTML 
-
-
 
 
 # 2. Conhecer a Internet
