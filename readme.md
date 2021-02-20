@@ -95,7 +95,7 @@ Para, tal, siga os seguintes passos:
 3. Irá agora especificar o seu menu. Para tal
     1. Escreva o nome das páginas do seu site (Home, Localização, Multimédia, Informações) separados do carater `|`. 
     2. Para cada nome, crie um elemento hyperlink para a respetiva página (que criaremos a seguir):
-        1. `index.html` para Home
+        1. `index.html` para Home 
         2. `local.html` para Localização
         3. `multimedia.html` para Multimédia
         4. `info.html` para Informações
@@ -105,7 +105,7 @@ Para, tal, siga os seguintes passos:
 
 De seguida iremos criar as páginas do seu website que estarão interligadas.
 1.	Crie 4 copias do ficheiro index.html que criou. 
-2.	Altere os nomes dos ficheiros para ter um de cada (index.html, local.html, multimedia.html, info.html)
+2.	Altere os nomes dos ficheiros para ter um de cada, com os seguintes nomes: index.html, local.html, multimedia.html, info.html (atenção que os nomes dos ficheiros HTML  deverão estar em minúsculas, sem espaços, acentos ou carateres especiais)
 3.	Em cada ficheiro, no menu ponha a negrito a palavra a que corresponde a página.
 4.	Abra o ficheiro index, e experimente se os hiperlinks funcionam. 
 Tem agora criado o seu website! Agora irá preencher cada página com conteúdos.
@@ -120,9 +120,9 @@ Tem agora criado o seu website! Agora irá preencher cada página com conteúdos
     4. Coloque uma barra horizontal de separação <hr> 
     5. Conte a história por palavras suas sem formatação. 
 3. De seguida num novo parágrafo apresente o seu website, criando uma lista não numerada onde apresenta em poucas palavras cada uma das páginas do seu website, incluindo um link para essa página numa das palavras.
+4. Criede seguida uma [wordcloud](https://www.wordclouds.com/) com base em palavras que associa à cidade. Adicione as palaras em "wordlist" (apague primeiro as existentes). Ponha peso 10 no nome da cidade para que esta fique com maior destaque. Pode escolher uma forma (shape), fonte (font), cores (use um fundo branco). Descarregue a imagem, e formate-a com o Paint por forma a que tenha largura de 300px como a fotografia da cidade. Isira-a por debaixo da lista.
 
-
-# 6. Localização
+# 6. Página Localização
 
 Na página `local.html`:
 1. Insira um pequeno parágrafo que descreva a localização da ciadade (continente, país), assim como algumas informações geográficas destas.
@@ -135,15 +135,27 @@ Na página `local.html`:
     f. insira esse código HTML na sua pagina HTML.
 
 
+# 5. Página Multimédia
+
+Na página `multimedia.html`:
+1.	Insira um parágrafo que apresente duas fotografias que escolherá no Google por serem emblemáticas do lugar que escolheu.  	 	 
+2. Utilize a aplicação Paint ou Paint.Net para gravar duas versões de tamanhos diferentes de cada fotografia (os comandos Ctrl+W ou Ctrl+R permitem abrir um interface que permite configurar o tamanho das imagens, consoante a aplicação): 
+    1. Grande, de 800 pixels de largura. Altere o nome, incluindo _grande no fim (e.g., lisboa_grande.jpg).
+    2. Pequena, de 100 pixels de largura. Altere o nome, incluindo _pequena (e.g., lisboa_pequena.jpg).
+    3. Guarde as 4 fotografias na pasta imagens. 
+    4. Insira na página HTML as imagens de 100px de largura, cada uma dentro de um elemento `picture`, incluindo uma legenda descritiva da fotografia (`caption`). Inclua também em cada imagem um hiperlink para a fotografia grande.
+3. Pesquise no Youtube um video sobre a cidade escolhida e insira-o na sua página recorrendo à opção "partilhar" e escolhendo "embeded".
+4.	Escolha um poema que de alguma forma associa ao lugar escolhido. Escreva, usando tamanhos diferentes, o título numa linha, o nome do poeta na seguinte, seguindo-se o poema, em itálico. Todo o texto deverá estar centrado. 
 
 
+# 6. Página Informações
 
-
-Crie o ficheiro `tabela.hml` com uma tabela com dados à sua escolha (por exemplo do site https://www.pordata.pt). Deverá ter pelo menos 4 linhas e 4 colunas. Deve usar:
-* elementos thead, tfooter e tbody
-* pelo menos um atributo rowspan e um coslpan (o valor de cada um sendo maior que 1). 
-* atributos cellspacing, cellpadding, bgcolor, align, border
-* formatação de colunas com colgroup, explorando os atributos existentes
+Na página `info.html`:
+1.	Crie uma tabela com dados à sua escolha sobre a cidade escolhida. Deverá ter pelo menos 3 colunas e 4 colunas. Deve usar:
+    * elementos thead, tfooter e tbody
+    * pelo menos um atributo rowspan e um coslpan (o valor de cada um sendo maior que 1). 
+    * atributos cellspacing, cellpadding, bgcolor, align, border
+    * formatação de colunas com colgroup, explorando os atributos existentes
  
 
 ## Lab 2
