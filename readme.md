@@ -151,7 +151,9 @@ Na página `multimedia.html`:
 # 6. Página Informações
 
 Na página `info.html`:
-1.	Crie uma tabela com dados à sua escolha sobre a cidade escolhida. Deverá ter pelo menos 3 colunas e 4 colunas. Uma sugestão é ir à wikipedia e extrair alguns elementos que aparecem numa tabela à direita. A terceira coluna pode consistir num elemento agrupador (por exemplo demografia, geografia, história, etc). Deve usar:
+1.	Crie uma tabela com dados à sua escolha sobre a cidade escolhida. Deverá ter pelo menos 3 colunas e 4 colunas. Uma sugestão é ir à wikipedia e extrair alguns elementos que aparecem numa tabela à direita. A terceira coluna pode consistir num elemento agrupador (por exemplo demografia, geografia, história, etc). 
+![](lisboa-info.png)
+3.	Deve depois formatar esta tabela usando:
     * elementos thead, tfooter e tbody
     * pelo menos um atributo rowspan e um coslpan (o valor de cada um sendo maior que 1). 
     * atributos cellspacing, cellpadding, bgcolor, align, border
