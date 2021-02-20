@@ -14,20 +14,20 @@
 1. Crie uma pasta `projeto` 
 1. Crie a pasta `lab1` que deverá conter o seu `lab1` criado na semana passada.
 1. crie um ficheiro `lab1.html` que:
-       * tenha como título "lab1" (usando a etiqueta `<title>` no `<<head>`)
-       * tenha um cabeçalho `<h1>` a dizer "Lab1: Conhecer a Internet com a minha primeira página Web" 
-       * tenha, numa lista, links para as duas páginas desse laboratório: `progweb.html` e  `report.html`.
+    * tenha como título "lab1" (usando a etiqueta `<title>` no `<<head>`)
+    * tenha um cabeçalho `<h1>` a dizer "Lab1: Conhecer a Internet com a minha primeira página Web" 
+    * tenha, numa lista, links para as duas páginas desse laboratório: `progweb.html` e  `report.html`.
 
 1. Crie a pasta `lab2`
 1. crie um ficheiro `lab2.html` que:
-       * tenha como título "lab2" (etiqueta `<title>`)
-       * tenha um cabeçalho `<h1>` a dizer "Lab2: Explorando o HTML com o meu primeiro website" 
-       * deverá ter, numa lista, links para cada uma das páginas que irá criar neste laboratório.
+    * tenha como título "lab2" (etiqueta `<title>`)
+    * tenha um cabeçalho `<h1>` a dizer "Lab2: Explorando o HTML com o meu primeiro website" 
+    * deverá ter, numa lista, links para cada uma das páginas que irá criar neste laboratório.
 
 1. crie dentro da pasta `projeto`o ficheiro `index.html` que:
-   * tenha como título "Laboratórios Programação Web" (etiqueta `<title>`)
-   * tenha um cabeçalho `<h1>` a dizer "Laboratórios Programação Web" 
-   * deverá ter, numa lista, links para os ficheiros `lab1.html` e `lab2.html` (que estão nos seus respectivas pastas, pelo que deverá incluir no caminho o nome da pasta), usando o título de cada laboratório.
+    * tenha como título "Laboratórios Programação Web" (etiqueta `<title>`)
+    * tenha um cabeçalho `<h1>` a dizer "Laboratórios Programação Web" 
+    * deverá ter, numa lista, links para os ficheiros `lab1.html` e `lab2.html` (que estão nos seus respectivas pastas, pelo que deverá incluir no caminho o nome da pasta), usando o título de cada laboratório.
 
 1. Os ficheiros `lab1.html` e `lab2.html` deverão ter um link para voltar para a landingpage do seu projeto, o ficheiro `index.html` na pasta `projeto`.
 
@@ -62,10 +62,10 @@ Assim, crie um ficheiro HTML intitulado index.html, inserindo as partes elementa
 </html>
 ```
 
-1.	Na secção <head> especifique um título (etiqueta <title>) para a barra do navegador. 
-2.	Especifique também os seguintes metadados:
-    a.	codificação UTF-8. 
-    b.	nome do autor do site, email, data de criação, uma curta descrição do conteudo do site, e palavras chave.
+1. Na secção <head> especifique um título (etiqueta <title>) para a barra do navegador. 
+2. Especifique também os seguintes metadados:
+    1. codificação UTF-8. 
+    2. nome do autor do site, email, data de criação, uma curta descrição do conteudo do site, e palavras chave.
 
 <meta name="author" content="Ana Maria"> 
 <meta name="keywords" content="palavras chave"> 
@@ -73,14 +73,14 @@ Assim, crie um ficheiro HTML intitulado index.html, inserindo as partes elementa
 <meta name="creation_date" content="date"
 <meta name="contactNetworkAddress" content="seu@mail.com">
 
-3.	Crie um icon para o seu website. Para tal:
-     a. Escolha uma imagem que converterá para icon (extensão .ico) recorrendo a uma aplicação web (e.g., https://www.favicon-generator.org/). Alternativamente, pode escolher um icon aqui https://www.iconspedia.com/.
-     b. Guarde-o numa nova pasta `imagens`, dentro de `lab2`, 
-     c. Insira um link para o icon no head da seguinte forma 
+3. Crie um icon para o seu website. Para tal:
+    1. Escolha uma imagem que converterá para icon (extensão .ico) recorrendo a uma aplicação web (e.g., https://www.favicon-generator.org/). Alternativamente, pode escolher um icon aqui https://www.iconspedia.com/.
+    2. Guarde-o numa nova pasta `imagens`, dentro de `lab2`, 
+    3. Insira um link para o icon no head da seguinte forma 
 < link rel="shortcut icon" type="image/x-icon" href="imagens/favicon.ico"/>
-d.	Poderá observar que, pelo facto de o icon estar na pasta “imagens”, tem sempre que especificar no href o caminho relativo para o local onde se encontra a imagem, o nome da pasta imagens (href="imagens/imagem.ico”).
+    4. Poderá observar que, pelo facto de o icon estar na pasta “imagens”, tem sempre que especificar no href o caminho relativo para o local onde se encontra a imagem, o nome da pasta imagens (href="imagens/imagem.ico”).
 
-6.	Explore o site https://www.rapidtables.com/web/color/ , onde para cada cor existe uma palete de intensidades que pode escolher. Neste site, escolha uma cor clara para o fundo da sua página, e especifique-a através da etiqueta:
+4. Explore o site https://www.rapidtables.com/web/color/ , onde para cada cor existe uma palete de intensidades que pode escolher. Neste site, escolha uma cor clara para o fundo da sua página, e especifique-a através da etiqueta:
 <body style="background-color:plum"> 
 
 
