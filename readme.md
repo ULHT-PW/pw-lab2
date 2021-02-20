@@ -48,9 +48,9 @@ projeto
 
 # 2. Cidade 
 
-Fará neste laboratório 2 um website sobre uma cidade. Um website é uma coleção de páginas HTML. Para tal, vamos criar um primeiro ficheiro, index.html, e replicar em 4 paginas diferentes o mesmo formato de cabeçalho e menu, indo mudar o conteúdo. 
+Fará neste laboratório 2 um website sobre uma cidade à sua escolha, que congregará várias informações que recolherá sobre esta. 
 
-Assim, crie um ficheiro HTML intitulado index.html, inserindo as partes elementares:
+Um website é uma coleção de páginas HTML. Para tal, vamos criar um primeiro ficheiro, index.html, e replicar em 4 paginas diferentes o mesmo formato de cabeçalho e menu, indo mudar o conteúdo. Assim, crie um ficheiro HTML intitulado index.html, inserindo as partes elementares:
 
 ```html
 <!DOCTYPE html>
@@ -69,7 +69,7 @@ Assim, crie um ficheiro HTML intitulado index.html, inserindo as partes elementa
 
 <meta name="author" content="Ana Maria"> 
 <meta name="keywords" content="palavras chave"> 
-<meta name="description" content="Website sobre ...">
+<meta name="description" content="Website sobre Lisboa">
 <meta name="creation_date" content="date"
 <meta name="contactNetworkAddress" content="seu@mail.com">
 
@@ -87,12 +87,11 @@ Assim, crie um ficheiro HTML intitulado index.html, inserindo as partes elementa
 
 Crie agora o cabeçalho do seu website. Terá o nome da Cidade, uma imagem e o menu, ficando da seguinte forma:
 
-
-
- 
+![](cabecalho.png)
 
 Para, tal, siga os seguintes passos: 
-1.	Crie uma tabela com duas linhas e duas colunas. Servirá para posicionar na célula esquerda uma imagem, na direita o seu nome e outra informação, e na célula de baixo o menu. As bordas ficarão invisíveis. Mas para entender a disposição que se pretende dos conteúdos, mostram-se as bordas:
+1.	NA primeira linha insira o nome da cidade com o marcador <h1>.
+2.	Na linha seguinte insira uma imagem da cidade a seu gosto. Redimensione a imagem para que ocupe Crie uma tabela com duas linhas e duas colunas. Servirá para posicionar na célula esquerda uma imagem, na direita o seu nome e outra informação, e na célula de baixo o menu. As bordas ficarão invisíveis. Mas para entender a disposição que se pretende dos conteúdos, mostram-se as bordas:
 
  
 
