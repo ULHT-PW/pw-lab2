@@ -22,7 +22,9 @@
 2. Na pasta `lab1` crie o ficheiro `lab1.html` que:
     * tenha como título "lab1" (usando a etiqueta `<title>` no `<<head>`)
     * tenha um elemento `h1` a dizer "Lab1: Conhecer a Internet com a minha primeira página Web" 
-    * tenha, numa lista, links para as duas páginas desse laboratório, com descrição de algumas palavras do que contém: `index.html` e  `report.html`.
+    * tenha, numa lista, com os seguintes items:
+        * link para `index.html`.
+        * link para `report.html`. 
 2. crie a pasta `lab2`
 
 # 2. Página Web 
@@ -109,7 +111,7 @@ Na página `local.html`:
     b. Faça um zoom que considera apropriado
     c. clique em “partilhar” e na opção “incorporar mapa” 
     d. Selecione tamanho pequeno
-    e. copie o código HTML resultante, <iframe src=… >
+    e. copie o código HTML resultante, `<iframe src=… >`
     f. insira esse código HTML na sua pagina HTML.
 
 
@@ -141,9 +143,11 @@ Na página `info.html`:
 
 # 7. Submissão
 
-A estrutura final da sua pasta `projeto` deverá ser como em baixo:
+A estrutura final da sua pasta `repo`, o seu repositório público do GitHub, deverá ser como em baixo:
 ```
-projeto
+repo
++-- index.php
++-- composer.json
 +-- index.html
 +-- lab1
 |   +-- lab1.html
