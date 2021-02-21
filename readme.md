@@ -3,7 +3,7 @@
 # Programação Web - Laboratório 2: Explorando o HTML com o meu primeiro website  
 
 ## Objetivo
-*Neste laboratório criará um website sobre uma cidade à sua escolha, onde irá aplicar os conceitos aprendidos sobre HTML.
+* Neste laboratório criará um website sobre uma cidade à sua escolha, onde irá aplicar os conceitos aprendidos sobre HTML.
 
 ## Pré-requisitos
 * Instale o VS Code para editar o código HTML de forma fácil.
