@@ -41,8 +41,26 @@
     * lista com os ítems em baixo, onde cada um terá um hiperlink para o respetivo ficheiro (link para `pw.html` e `report.html`):
         * Introdução à programação Web 
         * Conhecer a Internet
+        * 
 6. Crie a pasta `lab2`
-7. Abra o ficheiro `index.html` na pasta clonada `pw-labs-nomeapelido-numero`. Verifique que os hiperlinks para o lab1 e das páginas criadas no lab1 funcionam devidamente. O link para lab2 ainda não funciona pois a pasta ainda se encontra vazia.
+
+7. A estrutura da sua pasta `pw-labs-nomeapelido-numero` deverá ser como em baixo:
+```
+pw-labs-nomeapelido-numero
++-- index.php
++-- composer.json
++-- index.html
++-- lab1
+|   +-- index.html
+|   +-- report.html
+|   +-- pw.html
+|   +-- img
+    |   +-- wordcloud.png
+    |   +--  ...
++-- lab2
+```
+
+8. Abra o ficheiro `index.html` na pasta clonada `pw-labs-nomeapelido-numero`. Verifique que os hiperlinks para o lab1 e das páginas criadas no lab1 funcionam devidamente. O link para lab2 ainda não funciona pois a pasta ainda se encontra vazia.
 
 # 2. Página Web 
 
@@ -167,9 +185,9 @@ A estrutura final da sua pasta `pw-labs-nomeapelido-numero` deverá ser como em 
 +-- composer.json
 +-- index.html
 +-- lab1
-|   +-- lab1.html
 |   +-- index.html
 |   +-- report.html
+|   +-- pw.html
 |   +-- img
     |   +-- wordcloud.png
     |   +--  ...
