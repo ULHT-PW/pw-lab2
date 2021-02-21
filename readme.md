@@ -4,28 +4,45 @@
 
 ## Objetivo
 * Neste laboratório criará um website sobre uma cidade à sua escolha, onde irá aplicar os conceitos aprendidos sobre HTML.
+* Este laboratório deverá ser concluido antes da sua aula prática da semana de 1 de março. Este será avaliado nessa aula. 
 
 ## Pré-requisitos
 * Instale o VS Code para editar o código HTML de forma fácil.
 * Deverá ter feito o [lab1](https://github.com/ULHT-PW-2020-21/pw-lab1).
+* Verifique se tem tem instalado o github no seu computador. Para tal, abra uma linha de comando (tecla Windows e escreva cmd) e escreva `git --version`. Caso não o tenha instalado:
+    1. aceda à página [Git](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git) e siga os passos, mediante o seu sistema operativo (Mac, Linux ou Windows). Para Windows, descarregue diretamente [daqui](https://git-scm.com/download/win) e instale a aplicação descarregada (diga sim em todos os passos de instalação).
+    2. uma vez instalado, abra uma janela de comando e execute os seguintes comandos para definir a sua identidade para o git (crie um username, especificando-o entre aspas no comando em baixo, assim como o seu email):
+        * `git config --global user.name "username_usado_no_git"`
+        * `git config --global user.email "omeu@email.com"`
 * Leia o enunciado todo antes de o começar a resolver para entender o que fará.
 
-## Nota
-* Deverá concluir o laboratório antes da sua aula prática da semana de 1 de março. Este será avaliado nessa aula. 
+# 1. Estruturação do repositório de laboratórios
+1. O repositório que criou na aula passada albergará todos os laboratórios que fizer em Programação Web. Assim vamos renomeá-lo para um nome mais adequado da seguinte forma:
+    1. Abra o seu repositório no GitHub criado na última aula, `pw-lab1`.
+    2. Escolha na barra de menú a opção *Settings* 
+    3. renomeie o repositório para `pw-labs-nomeapelido-numero` (exemplo: pw-labs-luciostuder-a219999999).  
 
-# 1. Estruturação
+2. Clone  (descarregue uma cópia) o seu repositório no seu computador local da seguinte forma:
+    1. abra um processador de comandos (Tecla Windows e escreva `cmd`, ou `Powershell`, ou `git bash`)
+    2. escolha a pasta onde quer colocar o repositório (navegando com o comando `cd nome-de-pasta` para entrar numa determinada pasta)
+    3. escreva o comando `git clone https://github/seuusername/pw-labs-nomeapelido-numero` (hiperlink do seu repositório, com o seu username do GitHub e nome do repositório).
 
-1. Na sua pasta `projeto` (que se encontra no GitHub) crie o ficheiro `index.html` que:
-    * tenha como título "Laboratórios Programação Web" (etiqueta `<title>`)
-    * tenha um cabeçalho `<h1>` a dizer "Laboratórios Programação Web" 
-    * deverá ter, numa lista, os nomes dos labs 1 e 2 ("Laboratório 1: Conhecer a Internet com a minha primeira página Web" e  "Laboratório 2: Explorando o HTML com o meu primeiro website"), cada um respetivamente com links para os ficheiros `lab1/lab1.html` e `lab2/index.html`.
-2. Na pasta `lab1` crie o ficheiro `lab1.html` que:
-    * tenha como título "lab1" (usando a etiqueta `<title>` no `<<head>`)
-    * tenha um elemento `h1` a dizer "Lab1: Conhecer a Internet com a minha primeira página Web" 
-    * tenha, numa lista, com os seguintes items:
-        * link para `index.html`.
-        * link para `report.html`. 
-2. crie a pasta `lab2`
+3. Na sua pasta `pw-labs-nomeapelido-numero` crie um ficheiro `index.html` que tenha:
+    * título "PW Labs" (usando a etiqueta `<title>` no `<head>`)
+    * cabeçalho `<h1>` a dizer "Laboratórios Programação Web" 
+    * lista com os ítems em baixo, onde a palavra Laboratório x deverá ter um hiperlink para os ficheiros `lab1/index.html` e `lab2/index.html`:
+        * Laboratório 1: Conhecer a Internet com a minha primeira página Web
+        * Laboratório 2: Explorando o HTML com o meu primeiro website
+        
+4. Na pasta `lab1` altere o nome do ficheiro `index.html` para  `pw.html`
+5. Na pasta `lab1` crie um novo ficheiro `index.html` que tenha:
+    * título "PW Lab1" (usando a etiqueta `<title>` no `<head>`)
+    * elemento `h1` a dizer "Lab1: Conhecer a Internet com a minha primeira página Web" 
+    * lista com os ítems em baixo, onde cada um terá um hiperlink para o respetivo ficheiro (link para `pw.html` e `report.html`):
+        * Introdução à programação Web 
+        * Conhecer a Internet
+6. Crie a pasta `lab2`
+7. Abra o ficheiro `index.html` na pasta clonada `pw-labs-nomeapelido-numero`. Verifique que os hiperlinks para o lab1 e das páginas criadas no lab1 funcionam devidamente. O link para lab1 ainda não funciona pois a pasta ainda se encontra vazia.
 
 # 2. Página Web 
 
