@@ -126,12 +126,11 @@ Na página `multimedia.html`:
 
 Na página `info.html`:
 1.	Crie uma frase a introduzir a tabela de informações que compilou sobre a cidade.
-2.	Crie uma tabela com dados à sua escolha sobre a cidade escolhida. Deverá ter pelo menos 3 colunas e 4 colunas. Uma sugestão é ir à wikipedia e extrair alguns elementos que aparecem numa tabela à direita. A terceira coluna pode consistir num elemento agrupador (por exemplo demografia, geografia, história, etc). 
+2.	Crie uma tabela com dados à sua escolha sobre a cidade escolhida. Deverá ter pelo menos 3 colunas e 4 colunas. Uma sugestão é ir à wikipedia e extrair alguns elementos que aparecem numa tabela à direita. A terceira coluna pode consistir num elemento agrupador (por exemplo demografia, geografia, história, etc). Exemplo de tabela:
 
-![](lisboa-info.png)
+    ![](lisboa-info.png)
 
 3.	Deve depois formatar esta tabela usando:
-    * elementos thead (insira uma linha de cabeçalho na tabela) e tbody
     * pelo menos um atributo rowspan e um coslpan (o valor de cada um sendo maior que 1). 
     * atributos cellspacing, cellpadding, bgcolor, align, border
     * formatação de colunas com colgroup, explorando os atributos existentes
