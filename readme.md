@@ -42,7 +42,7 @@
         * Introdução à programação Web 
         * Conhecer a Internet
 6. Crie a pasta `lab2`
-7. Abra o ficheiro `index.html` na pasta clonada `pw-labs-nomeapelido-numero`. Verifique que os hiperlinks para o lab1 e das páginas criadas no lab1 funcionam devidamente. O link para lab1 ainda não funciona pois a pasta ainda se encontra vazia.
+7. Abra o ficheiro `index.html` na pasta clonada `pw-labs-nomeapelido-numero`. Verifique que os hiperlinks para o lab1 e das páginas criadas no lab1 funcionam devidamente. O link para lab2 ainda não funciona pois a pasta ainda se encontra vazia.
 
 # 2. Página Web 
 
@@ -160,9 +160,9 @@ Na página `info.html`:
 
 # 7. Submissão
 
-A estrutura final da sua pasta `repo`, o seu repositório público do GitHub, deverá ser como em baixo:
+A estrutura final da sua pasta `pw-labs-nomeapelido-numero` deverá ser como em baixo:
 ```
-repo
+`pw-labs-nomeapelido-numero`
 +-- index.php
 +-- composer.json
 +-- index.html
@@ -182,8 +182,13 @@ repo
     |   +--  ...
 ```
 
-1. Faça commit e push da pasta `projeto` para o seu repositório `pw-lab1`. Poderá se quiser renomear esta pasta para `pw-labs` pois este repositório irá conter todos os laboratórios que fizer em Programação Web.
-2. Sincronize o GitHub com o Heroku tal como fez no [lab1](https://github.com/ULHT-PW-2020-21/pw-lab1), de forma a colocar disponível na cloud a pasta `projeto` com seus conteúdos. 
-3. Garanta que o link da sua aplicação se encontra [aqui](https://drive.google.com/file/d/1kphRYAo78NSxWznBXHqNbPksELqlyloI/view). Finalize o laboratório antes da sua próxima aula prática, onde este será avaliado. 
+1. Carregue a sua pasta no Github com as seguintes instruções: 
+    1.  abra o processador de comandos e posicione-se dentro da pasta do seu repositório (`pw-labs-nomeapelido-numero`).
+    2.  escreva as seguintes instruções:
+        * `git add *`
+        * `git commit –m "submissão laboratório 2"`
+        * `git push`
+6. Sincronize o GitHub com o Heroku tal como fez no [lab1](https://github.com/ULHT-PW-2020-21/pw-lab1), de forma a colocar disponível na cloud a pasta `projeto` com seus conteúdos. 
+7. Garanta que o link da sua aplicação se encontra [aqui](https://drive.google.com/file/d/1kphRYAo78NSxWznBXHqNbPksELqlyloI/view). Finalize o laboratório antes da sua próxima aula prática, onde este será avaliado. 
 
 Esperamos que tenha gostado de aplicar os conhecimentos de HTML e de ter feito um website &#127760;!
