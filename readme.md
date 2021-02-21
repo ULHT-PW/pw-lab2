@@ -22,7 +22,7 @@
 2. Na pasta `lab1` crie o ficheiro `lab1.html` que:
     * tenha como título "lab1" (usando a etiqueta `<title>` no `<<head>`)
     * tenha um elemento `h1` a dizer "Lab1: Conhecer a Internet com a minha primeira página Web" 
-    * tenha, numa lista, links para as duas páginas desse laboratório, com descrição de algumas palavras do que contém: `progweb.html` e  `report.html`.
+    * tenha, numa lista, links para as duas páginas desse laboratório, com descrição de algumas palavras do que contém: `index.html` e  `report.html`.
 2. crie a pasta `lab2`
 
 # 2. Página Web 
