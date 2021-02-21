@@ -160,30 +160,10 @@ Na página `info.html`:
     * atributos cellspacing, cellpadding, bgcolor, align, border
     * formatação de colunas com colgroup, explorando os atributos existentes
 
-# Submissão
+# 7. Submissão
 
-## Criação de repositório GitHub
-Crie um repositório no GitHub `pw-lab2`, e faça push da pasta `projeto`.
+1. Faça commit e push da pasta `projeto` para o seu repositório `pw-lab1`. Poderá se quiser renomear esta pasta para `pw-labs` pois este repositório irá conter todos os laboratórios que fizer em Programação Web.
+2. Sincronize o GitHub com o Heroku, de forma a colocar disponível na cloud a pasta `projeto` com seus conteúdos. 
+3. No Moodle, submeta o link da sua aplicação antes da sua próxima aula prática, onde este será avaliado. 
 
-## Alojamento no Heroku
-Utilize a sua conta no Heroku. Sincronize o GitHub com o Heroku, de forma a colocar disponível na cloud a pasta `projeto` com seus conteúdos. 
-De forma a conseguir o alojamento na cloud com sucesso devem seguir os seguintes passos:
-* Adicionar dois ficheiros na diretoria `root` da pasta
-* * index.php
-* * * Com o seguinte conteúdo: `<?php include_once("index.html")  ?>`
-* * composer.json
-* * * Com o seguinte conteúdo: `{}`
-* Criar conta no Heroku - https://signup.heroku.com/login 
-* Criar uma aplicação, atribuindo-lhe um nome
-* Entrar nas definições da aplicação criada, e clicar na tab `Deploy`
-* Na secção de `Deploy Method` devem conectar a aplicação com o Github
-* Navegando até ao fim da página, até à secção `Manual deploy`, devem escolher o branch indicado do repositório e clicar em `Deploy branch`
-* Um vez realizado com sucesso, devem clicar no botão `Open app` no topo da página, e visualizar a página HTML 
-
-A estrutura das pastas deverá ser como em baixo (com mais imagens na pasta img):
-
-
-# 5. Submissão do Laboratório
-No Moodle, submeta o link da sua aplicação antes da sua próxima aula prática, onde este será avaliado. 
-
-Esperamos que tenha gostado de conhecer um pouco do funcionamento da Internet e de ter feito a sua primeira página Web &#127760;!
+Esperamos que tenha gostado de aplicar os conhecimentos de HTML e de ter feito um website &#127760;!
