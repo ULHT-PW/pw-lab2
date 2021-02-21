@@ -2,11 +2,11 @@
 
 # Programação Web - Laboratório 2: Explorando o HTML com o meu primeiro website  
 
-## OBJECTIVO
+## Objetivo
 Neste laboratório criará um website sobre uma cidade à sua escolha, onde irá aplicar os conceitos aprendidos sobre HTML.
 
-## PRÉ-REQUISITOS
-* Instale o VS Code para editar o código HTML de forma fácil. Senão, pode sempre usar o Notepad++. 
+## Pré-requisitos
+* Instale o VS Code para editar o código HTML de forma fácil.
 * Deverá ter feito o [lab1](https://github.com/ULHT-PW-2020-21/pw-lab1).
 * Leia o enunciado todo antes de o começar a resolver para entender o que fará.
 
@@ -159,7 +159,7 @@ projeto
 ```
 
 1. Faça commit e push da pasta `projeto` para o seu repositório `pw-lab1`. Poderá se quiser renomear esta pasta para `pw-labs` pois este repositório irá conter todos os laboratórios que fizer em Programação Web.
-2. Sincronize o GitHub com o Heroku, de forma a colocar disponível na cloud a pasta `projeto` com seus conteúdos. 
+2. Sincronize o GitHub com o Heroku tal como fez no [lab1](https://github.com/ULHT-PW-2020-21/pw-lab1), de forma a colocar disponível na cloud a pasta `projeto` com seus conteúdos. 
 3. No Moodle, submeta o link da sua aplicação antes da sua próxima aula prática, onde este será avaliado. 
 
 Esperamos que tenha gostado de aplicar os conhecimentos de HTML e de ter feito um website &#127760;!
