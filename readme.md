@@ -160,6 +160,7 @@ Na página `info.html`:
     * atributos cellspacing, cellpadding, bgcolor, align, border
     * formatação de colunas com colgroup, explorando os atributos existentes
 
+# Submissão
 
 ## Criação de repositório GitHub
 Crie um repositório no GitHub `pw-lab2`, e faça push da pasta `projeto`.
