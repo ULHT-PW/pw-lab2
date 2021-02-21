@@ -11,44 +11,21 @@
 
 # 1. Estruturação
 
-1. Crie uma pasta `projeto` 
-1. Crie a pasta `lab1` que deverá conter o seu `lab1` criado na semana passada.
-1. crie um ficheiro `lab1.html` que:
-    * tenha como título "lab1" (usando a etiqueta `<title>` no `<<head>`)
-    * tenha um cabeçalho `<h1>` a dizer "Lab1: Conhecer a Internet com a minha primeira página Web" 
-    * tenha, numa lista, links para as duas páginas desse laboratório, com descrição de algumas palavras do que contém: `progweb.html` e  `report.html`.
-
-1. Crie a pasta `lab2`
-
-1. crie dentro da pasta `projeto` o ficheiro `index.html` que:
+1. Na sua pasta `projeto` (que se encontra no GitHub) crie o ficheiro `index.html` que:
     * tenha como título "Laboratórios Programação Web" (etiqueta `<title>`)
     * tenha um cabeçalho `<h1>` a dizer "Laboratórios Programação Web" 
-    * deverá ter, numa lista, os nomes dos labs 1 e 2, cada um respetivamente com links para os ficheiros `lab1\lab1.html` e `lab2\index.html`.
+    * deverá ter, numa lista, os nomes dos labs 1 e 2 ("Laboratório 1: Conhecer a Internet com a minha primeira página Web" e  "LAboratório 2: Explorando o HTML com o meu primeiro website"), cada um respetivamente com links para os ficheiros `lab1/lab1.html` e `lab2/index.html`.
+2. Na pasta `lab1` crie o ficheiro `lab1.html` que:
+    * tenha como título "lab1" (usando a etiqueta `<title>` no `<<head>`)
+    * tenha um elemento `h1` a dizer "Lab1: Conhecer a Internet com a minha primeira página Web" 
+    * tenha, numa lista, links para as duas páginas desse laboratório, com descrição de algumas palavras do que contém: `progweb.html` e  `report.html`.
+2. crie a pasta `lab2`
 
-A estrutura final deverá ser como em baixo (com mais imagens na pasta img):
-```
-projeto
-+-- index.html
-+-- lab1
-|   +-- lab1.html
-|   +-- index.html
-|   +-- report.html
-|   +-- img
-    |   +-- wordcloud.png
-+-- lab2
-|   +-- index.html
-|   +-- info.html
-|   +-- local.html
-|   +-- multimedia.html
-|   +-- imagens
-    |   +--  ...
-```
+# 2. Página Web 
 
-# 2. Cidade 
+Fará neste laboratório 2 um website sobre uma cidade do mundo à sua escolha que goste. Deverá congregar várias informações sobre esta conforme indicado ao longo do laboratório. 
 
-Fará neste laboratório 2 um website sobre uma cidade do mundo à sua escolha, que congregará várias informações que recolherá sobre esta. 
-
-Um website é uma coleção de páginas HTML. Para tal, vamos criar um primeiro ficheiro, index.html, inserindo as partes elementares:
+Na pasta `lab2` crie o ficheiro `index.html`, inserindo as partes elementares:
 
 ```html
 <!DOCTYPE html>
@@ -73,10 +50,9 @@ Um website é uma coleção de páginas HTML. Para tal, vamos criar um primeiro 
 
 3. Crie um icon para o seu website. Para tal:
     1. Escolha uma imagem que converterá para icon (extensão .ico) recorrendo a uma aplicação web (e.g., https://www.favicon-generator.org/). Alternativamente, pode escolher um icon aqui https://www.iconspedia.com/.
-    2. Guarde-o numa nova pasta `imagens`, dentro de `lab2`, 
-    3. Insira um link para o icon no head da seguinte forma 
-< link rel="shortcut icon" type="image/x-icon" href="imagens/favicon.ico"/>
-    4. Poderá observar que, pelo facto de o icon estar na pasta “imagens”, tem sempre que especificar no href o caminho relativo para o local onde se encontra a imagem, o nome da pasta imagens (href="imagens/imagem.ico”).
+    2. Guarde-o numa nova pasta `imagens`, dentro de `lab2`
+    3. Insira um link para o icon no head da seguinte forma `< link rel="shortcut icon" type="image/x-icon" href="imagens/favicon.ico"/>`
+    4. Poderá observar que, pelo facto de o icon estar na pasta `imagens`, tem sempre que especificar no href o caminho relativo para o local onde se encontra a imagem, o nome da pasta imagens (href="imagens/imagem.ico”).
 
 4. Explore o site https://www.rapidtables.com/web/color/ , onde para cada cor existe uma palete de intensidades que pode escolher. Neste site, escolha uma cor clara para o fundo da sua página, e especifique-a através da etiqueta:
 <body style="background-color:plum"> 
@@ -161,6 +137,26 @@ Na página `info.html`:
     * formatação de colunas com colgroup, explorando os atributos existentes
 
 # 7. Submissão
+
+A estrutura final da sua pasta `projeto` deverá ser como em baixo:
+```
+projeto
++-- index.html
++-- lab1
+|   +-- lab1.html
+|   +-- index.html
+|   +-- report.html
+|   +-- img
+    |   +-- wordcloud.png
+    |   +--  ...
++-- lab2
+|   +-- index.html
+|   +-- info.html
+|   +-- local.html
+|   +-- multimedia.html
+|   +-- imagens
+    |   +--  ...
+```
 
 1. Faça commit e push da pasta `projeto` para o seu repositório `pw-lab1`. Poderá se quiser renomear esta pasta para `pw-labs` pois este repositório irá conter todos os laboratórios que fizer em Programação Web.
 2. Sincronize o GitHub com o Heroku, de forma a colocar disponível na cloud a pasta `projeto` com seus conteúdos. 
