@@ -1,5 +1,5 @@
 **UNIVERSIDADE LUSÓFONA DE HUMANIDADES E TECNOLOGIAS**
-
+ 
 # Programação Web - Laboratório 2: Explorando o HTML com o meu primeiro website  
 
 ## Objetivo
