@@ -2,7 +2,7 @@
 
 # Programação Web - Laboratório 2: Explorando o HTML com o meu primeiro website  
 
-**OBJECTIVO**: Nesta ficha criará um primeiro website que ficará disponível na nuvem onde irá aplicar os conceitos aprendidos sobre HTML.
+**OBJECTIVO**: Neste laboratório criará um website sobre uma cidade à sua escolha, onde irá aplicar os conceitos aprendidos sobre HTML.
 
 **PRÉ-REQUISITOS**: 
 * Instale o VS Code para editar o código HTML de forma fácil. Senão, pode sempre usar o Notepad++. 
