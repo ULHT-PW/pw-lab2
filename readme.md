@@ -1,14 +1,14 @@
 **UNIVERSIDADE LUSÓFONA DE HUMANIDADES E TECNOLOGIAS**
 
 # Programação Web - Laboratório 2: Explorando o HTML com o meu primeiro website  
-
+<div style="background-color:khaki; padding:40px;">
 **OBJECTIVO**: Neste laboratório criará um website sobre uma cidade à sua escolha, onde irá aplicar os conceitos aprendidos sobre HTML.
 
 **PRÉ-REQUISITOS**: 
 * Instale o VS Code para editar o código HTML de forma fácil. Senão, pode sempre usar o Notepad++. 
 * Deverá ter feito o [lab1](https://github.com/ULHT-PW-2020-21/pw-lab1).
 * Leia o enunciado todo antes de o começar a resolver para entender o que fará.
-
+</div>
 # 1. Estruturação
 
 1. Na sua pasta `projeto` (que se encontra no GitHub) crie o ficheiro `index.html` que:
