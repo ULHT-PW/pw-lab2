@@ -15,7 +15,7 @@ Neste laboratório criará um website sobre uma cidade à sua escolha, onde irá
 1. Na sua pasta `projeto` (que se encontra no GitHub) crie o ficheiro `index.html` que:
     * tenha como título "Laboratórios Programação Web" (etiqueta `<title>`)
     * tenha um cabeçalho `<h1>` a dizer "Laboratórios Programação Web" 
-    * deverá ter, numa lista, os nomes dos labs 1 e 2 ("Laboratório 1: Conhecer a Internet com a minha primeira página Web" e  "LAboratório 2: Explorando o HTML com o meu primeiro website"), cada um respetivamente com links para os ficheiros `lab1/lab1.html` e `lab2/index.html`.
+    * deverá ter, numa lista, os nomes dos labs 1 e 2 ("Laboratório 1: Conhecer a Internet com a minha primeira página Web" e  "Laboratório 2: Explorando o HTML com o meu primeiro website"), cada um respetivamente com links para os ficheiros `lab1/lab1.html` e `lab2/index.html`.
 2. Na pasta `lab1` crie o ficheiro `lab1.html` que:
     * tenha como título "lab1" (usando a etiqueta `<title>` no `<<head>`)
     * tenha um elemento `h1` a dizer "Lab1: Conhecer a Internet com a minha primeira página Web" 
