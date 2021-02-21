@@ -90,9 +90,9 @@ Tem agora criado o seu website! Agora irá preencher cada página com conteúdos
 1. Insira um parágrafo sobre esta cidade.
 2. Pesquise na Internet por [carateres especiais UTF-8](https://www.w3schools.com/charsets/ref_html_utf8.asp) assim como por emojis na [W3Schools](https://www.w3schools.com/charsets/ref_emoji.asp) e na [emojipedia](https://emojipedia.org/): 
     1. Conte a seguir uma pequena história apenas com emojis 😉, sobre a :cityscape: que escolheu. 
-    2. Coloque uma barra horizontal de separação <hr> 
+    2. Coloque uma barra horizontal de separação `hr` 
     3. Conte a história por palavras suas. Use etiquetas de estilo e organizacionais para formatar cada palavra diferentemente.
-    4. Coloque uma barra horizontal de separação <hr> 
+    4. Coloque uma barra horizontal de separação `hr` 
     5. Conte a história por palavras suas sem formatação. 
 3. De seguida num novo parágrafo apresente o seu website, criando uma lista não numerada onde apresenta em poucas palavras cada uma das páginas do seu website, incluindo um link para essa página numa das palavras.
 4. Criede seguida uma [wordcloud](https://www.wordclouds.com/) com base em palavras que associa à cidade. Adicione as palaras em "wordlist" (apague primeiro as existentes). Ponha peso 10 no nome da cidade para que esta fique com maior destaque. Pode escolher uma forma (shape), fonte (font), cores (use um fundo branco). Descarregue a imagem, e formate-a com o Paint por forma a que tenha largura de 300px como a fotografia da cidade. Isira-a por debaixo da lista.
