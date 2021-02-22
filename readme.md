@@ -157,8 +157,8 @@ Na página `multimedia.html`:
 2. Utilize a aplicação Paint ou Paint.Net para gravar duas versões de tamanhos diferentes de cada fotografia (os comandos Ctrl+W ou Ctrl+R permitem abrir um interface que permite configurar o tamanho das imagens, consoante a aplicação): 
     1. Grande, de 800 pixels de largura. Altere o nome, incluindo _grande no fim (e.g., lisboa_grande.jpg).
     2. Pequena, de 100 pixels de largura. Altere o nome, incluindo _pequena (e.g., lisboa_pequena.jpg).
-    3. Guarde as 4 fotografias na pasta imagens. 
-    4. Insira na página HTML as imagens de 100px de largura, cada uma dentro de um elemento `picture`, incluindo uma legenda descritiva da fotografia (`caption`).  Especifique o campo `alt`. Inclua também a imagem num hiperlink `a`, com o atributo `target="_blank"`. para a fotografia grande.
+    3. Guarde as 4 fotografias na pasta `imagens`. 
+    4. Insira na página HTML as imagens de 100px de largura, cada uma dentro de um elemento `picture`, incluindo uma legenda descritiva da fotografia (`caption`).  Especifique o campo `alt`. Aninhe o elemento `img` dentro de um hiperlink `a`, com hiperligação para a fotografia grande correspondente. No hiperlink, especifique o atributo `target="_blank"`, para que a imagem abra numa nova janela de forma isolada (ficará de forma primária, mas para este laboratório é suficiente).
 3. Pesquise no Youtube um video sobre a cidade escolhida e insira-o na sua página recorrendo à opção "partilhar" e escolhendo "embeded".
 4.	Escolha um poema que de alguma forma associa ao lugar escolhido. Escreva, usando tamanhos diferentes, o título numa linha, o nome do poeta na seguinte, seguindo-se o poema, em itálico. Todo o texto deverá estar centrado. 
 
@@ -200,13 +200,14 @@ A estrutura final da sua pasta `pw-labs-nomeapelido-numero` deverá ser como em 
     |   +--  ...
 ```
 
-1. Carregue a sua pasta no Github com as seguintes instruções: 
+1. Antes de submeter, verifique que todos os links funcionam devidamente.
+2. Carregue a sua pasta no Github com as seguintes instruções: 
     1.  abra o processador de comandos e posicione-se dentro da pasta do seu repositório (`pw-labs-nomeapelido-numero`).
     2.  escreva as seguintes instruções:
         * `git add *`
         * `git commit –m "submissão laboratório 2"`
         * `git push`
-6. Sincronize o GitHub com o Heroku tal como fez no [lab1](https://github.com/ULHT-PW-2020-21/pw-lab1), de forma a colocar disponível na cloud a pasta `projeto` com seus conteúdos. 
-7. Garanta que o link da sua aplicação se encontra [aqui](https://drive.google.com/file/d/1kphRYAo78NSxWznBXHqNbPksELqlyloI/view). Finalize o laboratório antes da sua próxima aula prática, onde este será avaliado. 
+3. Sincronize o GitHub com o Heroku tal como fez no [lab1](https://github.com/ULHT-PW-2020-21/pw-lab1), de forma a colocar disponível na cloud a pasta `projeto` com seus conteúdos. 
+4. Garanta que o link da sua aplicação se encontra [aqui](https://drive.google.com/file/d/1kphRYAo78NSxWznBXHqNbPksELqlyloI/view). Finalize o laboratório antes da sua próxima aula prática, onde este será avaliado. 
 
 Esperamos que tenha gostado de aplicar os conhecimentos de HTML e de ter feito um website &#127760;!
