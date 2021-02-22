@@ -216,7 +216,7 @@ A estrutura final da sua pasta `pw-labs-nomeapelido-numero` deverá ser como em 
         * `git add *`
         * `git commit –m "submissão laboratório 2"`
         * `git push`
-3. Sincronize o GitHub com o Heroku tal como fez no [lab1](https://github.com/ULHT-PW-2020-21/pw-lab1), de forma a colocar disponível na cloud a pasta `projeto` com seus conteúdos. 
-4. Garanta que o link da sua aplicação se encontra [aqui](https://drive.google.com/file/d/1kphRYAo78NSxWznBXHqNbPksELqlyloI/view). Finalize o laboratório antes da sua próxima aula prática, onde este será avaliado. 
+3. Sincronize o GitHub com o Heroku tal como fez no [lab1](https://github.com/ULHT-PW-2020-21/pw-lab1). Deverá ir ao Heroku e, em Deploy, fazer deploy branch, de forma a colocar disponível na cloud os novos conteúdos criados. 
+4. Garanta que o link da sua aplicação se encontra [aqui](https://drive.google.com/file/d/1kphRYAo78NSxWznBXHqNbPksELqlyloI/view). Inclua também o hiperlink do seu repositório. Finalize o laboratório antes da sua próxima aula prática, onde este será avaliado. 
 
 Esperamos que tenha gostado de aplicar os conhecimentos de HTML e de ter feito um website &#127760;!
