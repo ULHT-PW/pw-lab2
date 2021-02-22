@@ -106,8 +106,9 @@ Crie agora o cabeçalho do seu website. Terá o nome da Cidade, uma imagem e o m
 
 Para, tal, siga os seguintes passos: 
 1.	Na primeira linha insira o nome da cidade com o marcador `<h1>`.
-2.	Na linha seguinte insira uma imagem da cidade a seu gosto. Redimensione a imagem para que tenha 300px de largura.No Paint existe uma opção resize que lhe permite escolher o número de pixels que pretende que tenha de largura. Respeite a proporção da imagem, sem a deformar! Guarde a imagem numa nova pasta `images`. Insira a imagem usando a etiqueta `img`. Deverá inserir depois desta uma quebra de linha, pois uma imagem não é um bloco.
-3. Irá agora especificar o seu menu. Para tal
+2.	Na linha seguinte insira uma imagem da cidade a seu gosto. Redimensione a imagem para que tenha 300px de largura.No Paint existe uma opção resize que lhe permite escolher o número de pixels que pretende que tenha de largura. Respeite a proporção da imagem, sem a deformar! Guarde a imagem numa nova pasta `images`. Insira a imagem usando a etiqueta `img`. 
+3.	Deverá inserir depois desta uma quebra de linha, `br`, pois o elemento `img` não é um bloco.
+4. Irá agora especificar o seu menu. Para tal
     1. Escreva o nome das páginas do seu site (Home, Localização, Multimédia, Informações) separados do carater `|`. 
     2. Para cada nome, crie um elemento hyperlink para a respetiva página (que criaremos a seguir):
         1. `index.html` para Home 
