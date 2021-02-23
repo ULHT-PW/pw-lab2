@@ -6,6 +6,11 @@
 * Neste laboratório criará um website sobre uma cidade à sua escolha, onde irá aplicar os conceitos aprendidos sobre HTML.
 * Este laboratório deverá ser concluido antes da sua aula prática da semana de 1 de março. Este será avaliado nessa aula. 
 
+## Recomendações
+* Leia o enunciado todo com atenção antes de o começar a resolver para entender o que fará.
+* Execute com atenção cada passo, certificando-se que implementa todos os detalhes. Contém todos os detalhes para a criação do website. 
+* Se tiver alguma dúvida, recorra aos [slides](https://secure.grupolusofona.pt/ulht/moodle/pluginfile.php/958388/mod_resource/content/3/pw-02-html-01.pdf) da aula que contêm todos os conhecimentos que precisa para realizar o laboratório.
+
 ## Pré-requisitos
 * Instale o VS Code para editar o código HTML de forma fácil.
 * Deverá ter feito o [lab1](https://github.com/ULHT-PW-2020-21/pw-lab1).
@@ -14,9 +19,7 @@
     2. uma vez instalado, abra uma janela de comando e execute os seguintes comandos para definir a sua identidade para o git (crie um username, especificando-o entre aspas no comando em baixo, assim como o seu email):
         * `git config --global user.name "username_usado_no_git"`
         * `git config --global user.email "omeu@email.com"`
-* Leia o enunciado todo com atenção antes de o começar a resolver para entender o que fará.
-* Execute com atenção cada passo. Contém todos os detalhes para a criação do website. 
-* Se tiver alguma dúvida, recorra aos [slides](https://secure.grupolusofona.pt/ulht/moodle/pluginfile.php/958388/mod_resource/content/3/pw-02-html-01.pdf) da aula que contêm todos os conhecimentos que precisa para realizar o laboratório.
+
 
 # 1. Estruturação do repositório de laboratórios
 1. O repositório que criou na aula passada albergará todos os laboratórios que fizer em Programação Web. Assim vamos renomeá-lo para um nome mais adequado da seguinte forma:
