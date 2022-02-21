@@ -12,14 +12,9 @@
 * Se tiver alguma dúvida, recorra aos slides da aula que contêm todos os conhecimentos que precisa para realizar o laboratório.
 
 ## Pré-requisitos
-* Instale o Pycharm para editar o código HTML de forma fácil.
-* Deverá ter feito o [lab1](https://github.com/ULHT-PW/pw-lab1).
-* Verifique se tem tem instalado o github no seu computador. Para tal, abra uma linha de comando (tecla Windows e escreva cmd) e escreva `git --version`. Caso não o tenha instalado:
-    1. aceda à página [Git](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git) e siga os passos, mediante o seu sistema operativo (Mac, Linux ou Windows). Para Windows, descarregue diretamente [daqui](https://git-scm.com/download/win) e instale a aplicação descarregada (diga sim em todos os passos de instalação).
-    2. uma vez instalado, abra uma janela de comando e execute os seguintes comandos para definir a sua identidade para o git (crie um username, especificando-o entre aspas no comando em baixo, assim como o seu email):
-        * `git config --global user.name "username_usado_no_git"`
-        * `git config --global user.email "omeu@email.com"`
-
+* Deverá ter o Pycharm instalado para editar o código HTML de forma fácil.
+* Deverá ter feito o [lab1](https://github.com/ULHT-PW/pw-lab1). Caso não tenha feito, faça antes de fazer este laboratório.
+* Deverá ter instalado o git no seu computador.
 
 # 1. Estruturação do repositório de laboratórios
 1. O repositório que criou na aula passada albergará todos os laboratórios que fizer em Programação Web. Assim vamos renomeá-lo para um nome mais adequado da seguinte forma:
@@ -27,29 +22,42 @@
     2. Escolha na barra de menú a opção *Settings* 
     3. renomeie o repositório para `pw-labs-nomeapelido-numero` (exemplo: pw-labs-luciostuder-a219999999).  
 
-2. Clone  (descarregue uma cópia) o seu repositório no seu computador local da seguinte forma:
-    1. abra um processador de comandos (Tecla Windows e escreva `cmd`, ou `Powershell`, ou `git bash`)
+2. Clone (descarregue uma cópia) o seu repositório do GitHub para o seu computador local da seguinte forma:
+    1. abra um processador de comandos (prima a tecla Windows e escreva `cmd` ou `Powershell`)
     2. escolha a pasta onde quer colocar o repositório (navegando com o comando `cd nome-de-pasta` para entrar numa determinada pasta)
-    3. escreva o comando `git clone https://github/seuusername/pw-labs-nomeapelido-numero` (hiperlink do seu repositório, com o seu username do GitHub e nome do repositório).
+    3. clone o seu repositório com o comando:
+    ```bash
+    > git clone https://github/seuUserName/pw-labs-nomeapelido-numero
+    ```
 
-3. Na sua pasta `pw-labs-nomeapelido-numero` crie um ficheiro `index.html` que tenha:
+3. Ainda usando a consola vamos re-organizar os ficheiros e pastas:
+    1. entre no repositório e crie duas novas pastas, lab1 e lab2:
+    ```bash
+    > mkdir lab1
+    > mkdir lab2
+    ```
+      
+    1. mova para dentro da pasta `lab1` os ficheiros `index.html` e `report.html` e a pasta `images` da seguinte forma. Em windows use o comando `move`, em Linux o comando `mv`:
+    ```bash
+    > move index.html lab1
+    > move report.html lab1
+    > move images lab1
+    ```
+
+4. Crie um ficheiro `index.html` que servirá como índice dos laboratórios que for criando. Para tal, abra apasta doseu repositório com o Pycharm e edite o ficheiro HTML, incluindo:
     * título "PW Labs" (usando a etiqueta `<title>` no `<head>`)
-    * cabeçalho `<h1>` a dizer "Laboratórios Programação Web" 
+    * cabeçalho `<h1>` a dizer "Programação Web: Laboratórios" 
     * lista com os ítems em baixo, onde a palavra Laboratório x deverá ter um hiperlink para os ficheiros `lab1/index.html` e `lab2/index.html`:
         * Laboratório 1: Conhecer a Internet com a minha primeira página Web
         * Laboratório 2: Explorando o HTML com o meu primeiro website
+    * o seu nome, número de aluno, curso, ano e universidade a seu gosto. 
         
-4. Na pasta `lab1` altere o nome do ficheiro `index.html` para  `pw.html`
-5. Na pasta `lab1` crie um novo ficheiro `index.html` que tenha:
-    * título "PW Lab1" (usando a etiqueta `<title>` no `<head>`)
-    * elemento `h1` a dizer "Lab1: Conhecer a Internet com a minha primeira página Web" 
-    * lista com os ítems em baixo, onde cada um terá um hiperlink para o respetivo ficheiro (link para `pw.html` e `report.html`):
-        * Introdução à programação Web 
-        * Conhecer a Internet
+5. Na pasta `lab1`, nos ficheiros index.html e report.html, insira um menu com hiperlinks que permitam navegar de uma página para a outra, assim como voltar para o index. Menus:
+    * Introdução à programação Web 
+    * Conhecer a Internet
+    * Laboratórios PW
 
-6. Crie a pasta `lab2`
-
-7. A estrutura da sua pasta `pw-labs-nomeapelido-numero` deverá ser como em baixo:
+6. A estrutura da sua pasta `pw-labs-nomeapelido-numero` deverá ser como em baixo:
 ```
 pw-labs-nomeapelido-numero
 +-- index.php
@@ -65,7 +73,7 @@ pw-labs-nomeapelido-numero
 +-- lab2
 ```
 
-8. Abra o ficheiro `index.html` na pasta clonada `pw-labs-nomeapelido-numero`. Verifique que os hiperlinks para o lab1 e das páginas criadas no lab1 funcionam devidamente. O link para lab2 ainda não funciona pois a pasta ainda se encontra vazia.
+7. Abra o ficheiro `index.html` na pasta clonada `pw-labs-nomeapelido-numero`. Verifique que os hiperlinks para o lab1 e das páginas criadas no lab1 funcionam devidamente. O link para lab2 ainda não funciona pois a pasta ainda se encontra vazia.
 
 # 2. Página Web 
 
@@ -83,7 +91,7 @@ Na pasta `lab2` crie o ficheiro `index.html`, inserindo as partes elementares:
 </html>
 ```
 
-1. Na secção <head> especifique um título (etiqueta <title>) para a barra do navegador. 
+1. Na secção <head> especifique como título (etiqueta <title>) para a barra do navegador o nome da cidade. 
 2. Especifique também os seguintes metadados:
     1. codificação UTF-8. 
     2. nome do autor do site, descrição do conteudo do site, e palavras chave: 
@@ -130,21 +138,21 @@ Tem agora criado o seu website! Agora irá preencher cada página com conteúdos
 # 5. Página Introdução
 
 Na pagina `index.html` insira, no body, por debaixo do menu:
-1. Um elemento `h3` com a palavra Introdução.
-2. um parágrafo sobre esta cidade.
-3. Pesquise na Internet por [carateres especiais UTF-8](https://www.w3schools.com/charsets/ref_html_utf8.asp) assim como por emojis na [W3Schools](https://www.w3schools.com/charsets/ref_emoji.asp) e na [emojipedia](https://emojipedia.org/): 
-    1. Conte a seguir uma pequena história apenas com emojis 😉, sobre a :cityscape: que escolheu. 
+1. Um elemento `h2` com a palavra Introdução.
+2. Escreva um parágrafo sobre a cidade.
+3. Pequena história divertida:  
+    1. Conte uma pequena história divertida apenas com emojis 😉, sobre a :cityscape: que escolheu. Explore emojis, premindo nas teclas `🙂Windows + .`, ou pesquise na Internet em [emojipedia](https://emojipedia.org/), [carateres especiais UTF-8](https://www.w3schools.com/charsets/ref_html_utf8.asp), ou [W3Schools](https://www.w3schools.com/charsets/ref_emoji.asp). 
     2. Coloque uma barra horizontal de separação `hr` 
-    3. Conte a história por palavras suas. Use etiquetas de estilo e organizacionais para formatar cada palavra diferentemente.
+    3. Conte a história por palavras suas, mas usando marcadores de estilo (veja slides 17 e 18 da aula) e organizacionais para formatar cada palavra diferentemente 😬!
     4. Coloque uma barra horizontal de separação `hr` 
     5. Conte a história por palavras suas sem formatação. 
-4. De seguida num novo parágrafo apresente o seu website, criando uma lista não numerada onde apresenta em poucas palavras cada uma das páginas do seu website, incluindo um link para essa página numa das palavras.
+4. De seguida, num novo parágrafo apresente o seu website, criando uma lista não numerada onde apresenta em poucas palavras cada uma das páginas do seu website, incluindo um link para essa página numa das palavras. Escolha um marcador de lista especial (um quadrado por exemplo).
 5. Crie de seguida uma [wordcloud](https://www.wordclouds.com/) com base em palavras que associa à cidade. Adicione as palaras em "wordlist" (apague primeiro as existentes). Ponha peso 10 no nome da cidade para que esta fique com maior destaque. Pode escolher uma forma (shape), fonte (font), cores (use um fundo branco). Descarregue a imagem, e formate-a com o Paint por forma a que tenha largura de 300px como a fotografia da cidade. Isira-a por debaixo da lista.
 
 # 6. Página Localização
 
 Na página `local.html`:
-1. Um elemento `h3` com a palavra Localização.
+1. Por baixo do menu, insira um elemento `h2` com a palavra Localização.
 2. Insira um pequeno parágrafo que descreva a localização da ciadade (continente, país), assim como algumas informações geográficas destas.
 3.	Insira por baixo um mapa do Google Maps do lugar. Para tal: 
     a. procure o lugar no website www.google.pt/maps
@@ -158,16 +166,22 @@ Na página `local.html`:
 
 # 5. Página Multimédia
 
-Na página `multimedia.html`:
-1. Um elemento `h3` com a palavra Multimédia.
-2.	Insira um parágrafo que apresente duas fotografias que escolherá no Google por serem emblemáticas do lugar que escolheu.  	 	 
-3. Utilize a aplicação Paint ou Paint.Net para gravar duas versões de tamanhos diferentes de cada fotografia (os comandos Ctrl+W ou Ctrl+R permitem abrir um interface que permite configurar o tamanho das imagens, consoante a aplicação): 
-    1. Grande, de 800 pixels de largura. Altere o nome, incluindo _grande no fim (e.g., lisboa_grande.jpg).
-    2. Pequena, de 100 pixels de largura. Altere o nome, incluindo _pequena (e.g., lisboa_pequena.jpg).
-    3. Guarde as 4 fotografias na pasta `imagens`. 
-    4. Insira na página HTML as imagens de 100px de largura, cada uma dentro de um elemento `picture`, incluindo uma legenda descritiva da fotografia (`caption`).  Especifique o campo `alt`. Aninhe o elemento `img` dentro de um hiperlink `a`, com hiperligação para a fotografia grande correspondente. No hiperlink, especifique o atributo `target="_blank"`, para que a imagem abra numa nova janela de forma isolada (ficará de forma primária, mas para este laboratório é suficiente).
-4. Pesquise no Youtube um video sobre a cidade escolhida e insira-o na sua página recorrendo à opção "partilhar" e escolhendo "embeded".
-5.	Escolha um poema que de alguma forma associa ao lugar escolhido. Escreva, usando tamanhos diferentes, o título numa linha, o nome do poeta na seguinte, seguindo-se o poema, em itálico. Todo o texto deverá estar centrado. 
+Na página `multimedia.html` crie:
+1. Um elemento `h2` com a palavra Multimédia.
+2.	Um elemento `h3` intitulado Fotografias. Escolha no Google pelo menos 3 fotografias emblemáticas do lugar que escolheu.  	 	 
+3. Utilize a aplicação Paint.Net para gravar duas versões das fotografias em tamanhos definidos (o comando Ctrl+R ou Ctrl+W permite abrir um interface que permite configurar o tamanho das imagens, consoante a aplicação; deverá igualmente recortar as fotografias com o comando "crop", para as proporções indicadas): 
+    1. Grande, de 600x400 pixels de largura. Altere o nome, incluindo _grande no fim (e.g., lisboa_grande.jpg).
+    2. Pequena, de 120x80 pixels de largura. Altere o nome, incluindo _pequena (e.g., lisboa_pequena.jpg).
+    3. Guarde as 6 fotografias na pasta `imagens`. 
+    4. Insira na página HTML as imagens de 100px de largura,dentro de um único parágrafo, uma ao lado da outra. Especifique o campo `alt`. Aninhe o elemento `img` dentro de um hiperlink `a`, com hiperligação para a fotografia grande correspondente e com o atributo `target="foto"`.
+ ```bash
+ <a href=""><img src="" alt=""></a>
+ ```
+    5. Crie um elemento `iframe` 800x600 com `name="foto"`, para visualizar em grande a fotografia que for clicada. Especifique na iframe,no atributo `src`, uma das imagens, para que apareça
+    6. antes das fotografias, escreva um texto que apresente as fotografias em baixo.
+4. Um elemento `h3` intitulado Vídeo. Pesquise no Youtube por um video sobre a cidade escolhida e insira-o na sua página recorrendo à opção "partilhar" e escolhendo "embeded".
+5.	Um elemento `h3` intitulado Poema. Escolha um poema que de alguma forma associa ao lugar escolhido. Escreva, usando tamanhos diferentes, o título numa linha, o nome do poeta na seguinte, seguindo-se o poema, em itálico. Todo o texto deverá estar centrado. 
+6. Defina identificadores `id` em cada título `h3`. Por baixo do elemento `h3` Multimédia, coloque hiperlinks "âncora" para cada uma das secções desta página (fotografias, video, poema). 
 
 
 # 6. Página Informações
@@ -175,7 +189,7 @@ Na página `multimedia.html`:
 Na página `info.html`:
 1.	Um elemento `h3` com a palavra Informações.
 2. Crie uma frase a introduzir uma tabela de informações a compilar sobre a cidade.	
-3.	Crie uma tabela com dados à sua escolha sobre a cidade escolhida. Deverá ter pelo menos 3 colunas e 4 colunas. Uma sugestão é ir à wikipedia e extrair alguns elementos que aparecem numa tabela à direita. A terceira coluna pode consistir num elemento agrupador (por exemplo demografia, geografia, história, etc). Exemplo de tabela:
+3.	Crie uma tabela com dados à sua escolha sobre a cidade escolhida. Deverá ter pelo menos 3 colunas e 4 colunas edeverá usar colspan e rowspan. Uma sugestão é ir à wikipedia e extrair alguns elementos que aparecem numa tabela à direita. A terceira coluna pode consistir num elemento agrupador (por exemplo demografia, geografia, história, etc). Exemplo de tabela:
 
     ![](lisboa-info.png)
 
@@ -199,7 +213,6 @@ A estrutura final da sua pasta `pw-labs-nomeapelido-numero` deverá ser como em 
 +-- lab1
 |   +-- index.html
 |   +-- report.html
-|   +-- pw.html
 |   +-- img
     |   +-- wordcloud.png
     |   +--  ...
@@ -222,4 +235,6 @@ A estrutura final da sua pasta `pw-labs-nomeapelido-numero` deverá ser como em 
 3. Sincronize o GitHub com o Heroku tal como fez no [lab1](https://github.com/ULHT-PW-2020-21/pw-lab1). Deverá ir ao Heroku e, em Deploy, fazer deploy branch, de forma a colocar disponível na cloud os novos conteúdos criados. 
 4. Garanta que o link da sua aplicação se encontra [aqui](https://drive.google.com/file/d/1kphRYAo78NSxWznBXHqNbPksELqlyloI/view). Inclua também o hiperlink do seu repositório privado no GitHub, e adicione os docentes de PW como membros, que têm como usernames no GitHub: luciostuder, logdarkmatter, rfgsantos. Finalize o laboratório antes da sua próxima aula prática, onde este será avaliado. 
 
-Esperamos que tenha gostado de aplicar os conhecimentos de HTML e de ter feito um website &#127760;!
+ # Fim
+ 
+Esperamos que tenha gostado de aplicar os conhecimentos de HTML fazendo um primeiro website &#127760;!
