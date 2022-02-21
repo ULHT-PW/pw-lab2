@@ -1,9 +1,9 @@
 **UNIVERSIDADE LUSÓFONA DE HUMANIDADES E TECNOLOGIAS**
  
-# Programação Web - Laboratório 2: Explorando o HTML com o meu primeiro website  
+# Programação Web - Laboratório 2: <br>*Explorando o HTML com o meu primeiro website*
 
 ## Objetivo
-* Neste laboratório criará um website sobre uma cidade à sua escolha, onde irá aplicar os conceitos aprendidos sobre HTML.
+* Neste laboratório criará um website sobre uma cidade à sua escolha, onde irá aplicar os conceitos aprendidos sobre HTML adquiridos esta semana.
 * Este laboratório deverá ser concluido antes da sua aula prática da semana de 28.2 a 4.3, onde será avaliado. 
 
 ## Recomendações
