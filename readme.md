@@ -4,7 +4,7 @@
 
 ## Objetivo
 * Neste laboratório criará um website sobre uma cidade à sua escolha, onde irá aplicar os conceitos aprendidos sobre HTML.
-* Este laboratório deverá ser concluido antes da sua aula prática da semana de 1 de março. Este será avaliado nessa aula. 
+* Este laboratório deverá ser concluido antes da sua aula prática da semana de 28.2 a 4.3, onde será avaliado. 
 
 ## Recomendações
 * Leia o enunciado todo com atenção antes de o começar a resolver para entender o que fará.
