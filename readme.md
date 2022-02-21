@@ -9,11 +9,11 @@
 ## Recomendações
 * Leia o enunciado todo com atenção antes de o começar a resolver para entender o que fará.
 * Execute com atenção cada passo, certificando-se que implementa todos os detalhes. Contém todos os detalhes para a criação do website. 
-* Se tiver alguma dúvida, recorra aos [slides](https://secure.grupolusofona.pt/ulht/moodle/pluginfile.php/958388/mod_resource/content/3/pw-02-html-01.pdf) da aula que contêm todos os conhecimentos que precisa para realizar o laboratório.
+* Se tiver alguma dúvida, recorra aos slides da aula que contêm todos os conhecimentos que precisa para realizar o laboratório.
 
 ## Pré-requisitos
-* Instale o VS Code para editar o código HTML de forma fácil.
-* Deverá ter feito o [lab1](https://github.com/ULHT-PW-2020-21/pw-lab1).
+* Instale o Pycharm para editar o código HTML de forma fácil.
+* Deverá ter feito o [lab1](https://github.com/ULHT-PW/pw-lab1).
 * Verifique se tem tem instalado o github no seu computador. Para tal, abra uma linha de comando (tecla Windows e escreva cmd) e escreva `git --version`. Caso não o tenha instalado:
     1. aceda à página [Git](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git) e siga os passos, mediante o seu sistema operativo (Mac, Linux ou Windows). Para Windows, descarregue diretamente [daqui](https://git-scm.com/download/win) e instale a aplicação descarregada (diga sim em todos os passos de instalação).
     2. uma vez instalado, abra uma janela de comando e execute os seguintes comandos para definir a sua identidade para o git (crie um username, especificando-o entre aspas no comando em baixo, assim como o seu email):
