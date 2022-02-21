@@ -44,7 +44,7 @@
     > move images lab1
     ```
 
-4. Crie um ficheiro `index.html` que servirá como índice dos laboratórios que for criando. Para tal, abra apasta doseu repositório com o Pycharm e edite o ficheiro HTML, incluindo:
+4. Crie um ficheiro `index.html` que servirá como índice dos laboratórios que for criando. Para tal, abra apasta do seu repositório com o Pycharm e edite o ficheiro HTML, incluindo:
     * título "PW Labs" (usando a etiqueta `<title>` no `<head>`)
     * cabeçalho `<h1>` a dizer "Programação Web: Laboratórios" 
     * lista com os ítems em baixo, onde a palavra Laboratório x deverá ter um hiperlink para os ficheiros `lab1/index.html` e `lab2/index.html`:
@@ -52,7 +52,7 @@
         * Laboratório 2: Explorando o HTML com o meu primeiro website
     * o seu nome, número de aluno, curso, ano e universidade a seu gosto. 
         
-5. Na pasta `lab1`, nos ficheiros index.html e report.html, insira um menu com hiperlinks que permitam navegar de uma página para a outra, assim como voltar para o index. Menus:
+5. Na pasta `lab1`, nos ficheiros index.html e report.html, no menu, insira um terceiro link que permita voltar para o indice geral doslaboratórios da cadeira. Menus:
     * Introdução à programação Web 
     * Conhecer a Internet
     * Laboratórios PW
