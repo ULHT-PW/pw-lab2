@@ -233,8 +233,13 @@ A estrutura final da sua pasta `pw-labs-nomeapelido-numero` deverá ser como em 
         * `git commit –m "submissão laboratório 2"`
         * `git push`
 3. Sincronize o GitHub com o Heroku tal como fez no [lab1](https://github.com/ULHT-PW-2020-21/pw-lab1). Deverá ir ao Heroku e, em Deploy, fazer deploy branch, de forma a colocar disponível na cloud os novos conteúdos criados. 
-4. Garanta que o link da sua aplicação se encontra [aqui](https://drive.google.com/file/d/1kphRYAo78NSxWznBXHqNbPksELqlyloI/view). Inclua também o hiperlink do seu repositório privado no GitHub, e adicione os docentes de PW como membros, que têm como usernames no GitHub: luciostuder, logdarkmatter, rfgsantos. Finalize o laboratório antes da sua próxima aula prática, onde este será avaliado. 
+4. Preencha o [formulário de submissão](https://docs.google.com/forms/d/e/1FAIpQLSd8o1MOPXMcn0B6nwZ4oBWuAtfjz44EdgcDcn0m2639Ob2Myg/viewform)
+5. Crie um ficheiro README.md e inclua neste informação sobre si, a cadeira, o laboratório (inclua um link para o enunciado) e inclua o link da sua aplicação Heroku.
+6. Adicione ao seu repositório privado GitHub os docentes de PW como membros, que têm como usernames no GitHub: luciostuder, logdarkmatter, rfgsantos. Finalize o laboratório antes da sua próxima aula prática, onde este será avaliado. 
 
+ 
+ 
+ 
  # Fim
  
 Esperamos que tenha gostado de aplicar os conhecimentos de HTML fazendo um primeiro website &#127760;!
